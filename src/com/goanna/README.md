@@ -7,7 +7,9 @@ B - Ant
 
 C - Maven 
 
-D - All of the above.
+D - All of the above. <-
+
+The Answer is D
 
 
 
@@ -19,11 +21,11 @@ A - void assert(Object object, boolean toCheckAsNull)
 
 B - void assertCheck(Object object, boolean toCheckAsNull) 
 
-C - void assertNull(Object object) 
+C - void assertNull(Object object) <-
 
 D - void assertChecks(Object object, boolean toCheckAsNull)
 
-
+The Answer is C
 
 
 Q 3 - Which of the following is correct about org.junit.JUnitCore class? 
@@ -35,22 +37,24 @@ B - JUnitCore is a facade for running tests.
 
 C - It supports running JUnit 4 tests, JUnit 3.8.x tests, and mixtures. 
 
-D - All of the above.
+D - All of the above. <-
 
-
+The Answer is D
 
 Q 4 - A test method annotated with @Ignore will not be executed.
 
 
 A - false 
 
-B - true
+B - true <-
 
-
+The Answer is B
 
 Q 5 - @Before gets executed before each test. True/False?
 
 
-A. True
+A. True <-
 
-B. False
+B. False 
+
+The Answer is A

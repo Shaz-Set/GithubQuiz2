@@ -24,15 +24,12 @@ public class Lists {
        
 
 
-        
         over60(empList);
-
 
 
         removeById(empList, 4);
         
-        
-        
+
         ageModulus(empList);
 
 
@@ -46,7 +43,7 @@ public class Lists {
      *
      *
      */
-    private static Employee over60(List<Employee> empList) {
+    public static Employee over60(List<Employee> empList) {
     	Employee adult = null;
         for(int i = 0; i < empList.size(); i++){
             if(empList.get(i).age > 60){
@@ -66,7 +63,7 @@ public class Lists {
      * @param empId
      *
      */
-    private static List<Employee> removeById(List<Employee> empList, int empId) {
+    public static List<Employee> removeById(List<Employee> empList, int empId) {
         //empList.remove(empId);
         for(int i = 0; i < empList.size(); i++){
             if(empList.get(i).id == empId){
@@ -88,20 +85,13 @@ public class Lists {
      *
      *
      */
-    private static boolean ageModulus(List<Employee> empList) {
-    	Employee adult = null;
+    public static boolean ageModulus(List<Employee> empList) {
         for(int i = 0; i < empList.size(); i++){
             if(empList.get(i).age % 2 == 0){
                return true;
             }
         }
         return false;
-
     }
-
-
-
-
-
 
 }
